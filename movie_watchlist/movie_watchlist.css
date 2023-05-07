@@ -1,0 +1,119 @@
+body{
+    margin:0 auto
+}
+.header{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:25%;
+    color:white;
+    background-image: url("images/hl2-wallpaper.jpg");
+    background-blend-mode:multiply;
+    background-color: #404040;
+
+}
+#movie-content{
+    text-align: center;
+}
+.search-bar{
+    display: flex;
+    width:80%;
+    margin-left:10%;
+    border-radius: 10px;
+    border:1px solid gainsboro;
+    height: 3em;
+    margin-top:-1.5em;
+    background-color: white;
+ 
+}
+.add-btn:hover{
+    color:red;
+}
+
+#input-el{
+    border-end-end-radius: 0;
+    border-start-end-radius: 0;
+
+}
+.search-bar button{
+    background-color: white;
+    border-radius: 10px;
+    width:15%;
+    border:0;
+    border-left:1px solid gainsboro ;
+    border-end-start-radius: 0;
+    border-start-start-radius: 0;
+    
+}
+#search:hover{
+    background-color: antiquewhite;
+}
+
+input{
+    width:85%;
+    background-color: white;
+    border-radius: 10px;
+    border:0;
+}
+
+.header h1{
+    font-weight: 800;
+    font-size: 2.5em;
+    line-height: 1.5em;
+
+}
+.header a{
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color:white;
+    text-decoration: none;
+    
+}
+.movie-info{
+ 
+    display:flex;
+    height: 35%;
+    margin:3em;
+    padding-bottom: 2em;
+    border-bottom:2px solid gainsboro;
+}
+.description{
+   
+    width:100%;
+    margin:2em;
+}
+.title{
+    display:flex; 
+    align-items: center;
+    width:100%;
+}
+ .title p{
+    margin:2em;
+}
+.length-and-genre{
+    display:flex;   
+    
+}
+
+.add{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.genre{
+    margin-left:2em;
+}
+.add-btn{
+    width:20px;
+    margin:.5em;
+    margin-left:2em;
+    height:20px;
+    border:0;
+    background-color: black;
+    border-radius: 10px;
+    color:aliceblue;
+    
+}
